@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo"></img>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times"></i>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <br>
+                <p>Data Analyst</p>
+                <h1>Hi, I'm <span>Kaushik</span>&nbspSingh <br>from India.</h1>
+                
+            </div>
+        </div>
+    </div>
+    <!-- ----------ABOUT---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p style="text-align: justify;">I am an enthusiastic and driven Data Analyst with a strong foundation in data analysis, statistics, and data visualization. Although I am starting my career, I have honed my skills through academic projects and hands-on experience with key tools like Excel, SQL, Python, Power BI and Tableau. I am passionate about transforming complex data into clear, actionable insights that drive business decisions.
+
+                    My expertise lies in data cleaning, exploratory data analysis(EDA), statistical modeling, and creating intuitive visualizationsto communicate findings effectively. I am proficient in usingPython (Pandas, Matplotlib, Seaborn) for data manipulation andanalysis, and SQL for querying large datasets. I have a strongattention to detail and a problem-solving mindset, ensuring that Iprovide accurate and meaningful insights.
+                        
+                    I am eager to contribute to data-driven decision-making, continuelearning, and apply my skills in real-world projects to helporganizations unlock the power of their data.
+                        
+                        </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Language</span><br>Python, SQL, HTML, CSS</li>
+                            <li><span>Framework</span><br>Numpy, Pandas, Matplotlib, Seaborn, Flask</li>
+                            <li><span>Database</span><br>MySQL, Mongodb</li>
+                            <li><span>Tools</span><br>Power BI, Tableau, Excel, VS Code, Jupyter NoteBook</li>
+                            <li><span>Core Subject</span><br>Operating System, Computer Network, DBMS, OOPs</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Fresher</span><br></li>
+                            <!-- <li><span>2023-Current</span><br>UI/UX Designer</li>
+                            <li><span>2021-Current</span><br>Software Developer</li>
+                            <li><span>2022-Current</span><br>Web app Development</li>
+                            <li><span>2023-2024</span><br>Internship at Bharat Intern App Development.</li> -->
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>MCA (Masters Of Computer Application)</span><br>GL BAJAJ College of Technology and Management Greater Noida<br>
+                            (2022-2024)  (CGPA: 7.3)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------SERVICES---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>App Development</h2>
+                    <p>"Transforming ideas into intuitive, user-centric mobile applications, driving seamless experiences and fostering digital innovation."</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>"Building responsive web solutions with precision and expertise, elevating online presence and user engagement."</p>
+                    <a href="#">Learn more</a>
+
+                </div>
+                <div>
+
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>"An imaginative UI/UX designer translating ideas into captivating digital experiences that resonate with users' emotions and needs."</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------PORTFOLIO--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h2>Social Media App</h2>
+                        <p>"Empowering users to share their stories, connect with friends, and discover new horizons through our engaging and user-friendly social media platform."</p>
+                        <a href="https://github.com/kaushiksingh05/QUIZ_APP/blob/main/QUIZ%20APP/quiz.html"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h2>Music App</h2>
+                        <p>"Unleash the power of melodies with our music app, offering an extensive library, personalized playlists, and an immersive audio experience."</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h2>Online Shopping App</h2>
+                        <p>Shop till you drop with our online shopping app, featuring a vast collection, secure transactions, and doorstep delivery for a seamless retail experience."</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ----------CONTACT---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> officialkaushik055@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> +91-7982979700</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/kaushiksingh05"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/kaushiksingh2006"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="31133b2c-d74d-4b1c-8300-8790046b1ff3">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn3">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ Kaushik Singh. Made with <i class="fas fa-heart"></i> by Kaushik Singh</p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tabLinks = document.getElementsByClassName('tab-links');
+        var tabContents = document.getElementsByClassName('tab-contents');
+
+        function openTab(tabName) {
+            for (tabLink of tabLinks) {
+                tabLink.classList.remove('active-link');
+            }
+            for (tabContent of tabContents) {
+                tabContent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabName).classList.add('active-tab');
+        }
+
+        // JavaScript for handling the mobile navigation menu
+        document.querySelector('.fas.fa-bars').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+
+        document.querySelector('.fas.fa-times').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.remove('show');
+        });
+
+    </script>
+</body>
+
+</html>
